@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <center>
+        <a href="index.htm">HOMEPAGE</a>
+        <a href="films.htm">FILMS</a>
+        <a href="books.htm">BOOKS</a>
+        <a href="musics.htm">MUSICS</a>
+        <a href="usefullinks.htm">USEFUL LINKS</a>
+        <a href="contactme.htm">CONTACT ME</a>
+        <font size="6"><ins><a href="registration.htm">REGISTER</a></font>
+
+<br><br>
+
+
+              <label for="theName"> Name (Middle Name) Surname: </label>
+              <input type="text" name="name" id="theName"> <br>
+
+              <label for="thePassword"> Password: </label>
+              <input type="password" name="userpassword"> <br>
+
+              <label for="theEmail"> Email: </label>
+              <input type="email" name="email" id="theEmail"> <br>
+
+              <label for="theDate">Date of Birth:</label>
+              <input type="date" id="theDate" name="date"><br>
+
+              <label for="theDepartment"> Department: </label>
+              <select name="department">
+                <option value="ie">Industrial Engineering</option>
+                <option value="ce">Computer Engineering</option>
+                <option value="me">Mechanical Engineering</option>
+              </select>
+              <br>
+
+
+              <label for="theGerner"> Gender </label>
+              <select name="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+              </select>
+              <br>
+
+              <label for="theMessage"> Massage: </label>
+              <textarea type="textarea" rows="3" cols="40" name="name" id="theName"></textarea> <br>
+
+              <form method="post" enctype="multipart/form­data" action="test.php">
+
+                <label for="theUpload"> Upload your photo: </label>
+                <input type="file" name="fileToUpload">
+              </form><br>
+
+              <label for="theInterests"> Mark your interests </label> <br>
+              <input type="checkbox" name="cb1" id="theCheckboxes">Autos and Vehicles <br>
+              <input type="checkbox" name="cb2" id="theCheckboxes">Comedy <br>
+              <input type="checkbox" name="cb3" id="theCheckboxes">Education <br>
+              <input type="checkbox" name="cb4" id="theCheckboxes">Film and Animation <br>
+              <input type="checkbox" name="cb5" id="theCheckboxes">Gaming <br>
+              <input type="checkbox" name="cb6" id="theCheckboxes">Musics <br>
+              <input type="checkbox" name="cb7" id="theCheckboxes">Politics <br>
+              <input type="checkbox" name="cb8" id="theCheckboxes">Pets and Animals <br>
+              <input type="checkbox" name="cb9" id="theCheckboxes">Science and Technology <br>
+              <input type="checkbox" name="cb10" id="theCheckboxes">Sports <br>
+
+              <button onclick="alert('Thanks for registrated!')">Submit</button>
+
+
+
+
+
+
+              <br>
+
+   </center>
+
+  </body>
+</html>
