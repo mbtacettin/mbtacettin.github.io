@@ -59,40 +59,79 @@
       </div>
   </nav>
 
-<br><br><br><br>
-      <form>
-      Name Surname: <input type="text" name="name">
-      <br><br>
-      Email: <input type="email" name="email">
-      <br><br>
-      Telephone: <input placeholder="Max. lenght is 11" type="text" name="phone" maxlength="11">
-      <br><br>
-      Issue: <input type="text" name="issue">
-      <br><br>
-      Massage: <textarea rows="3" cols="40" name="message">
+<br>
+<br>
 
-      </textarea>
-      <br><br>
-      <button onclick="alert('Your message is sent')">Send</button>
-    </form>
-    <p>OR <br> If you want to contact me , please clink to the address below:<br>
-      <a href="mailto:mehmet.tacettin@gmail.com">Send Mail!</a>
-      <br>
-      <a href="index.htm">
-        <img src="home.jpg" alt="Home!"> </a>
-      <br>
-      <a href="https://www.facebook.com/bugratacettinn">
-        <img src="facebook.png" alt="facebook"> </a>
-      <a href="https://twitter.com/mbtacettin">
-        <img src="twitter.png" alt="twitter">  </a>
+<div class="container">
+        <div class="row justify-content-md-center">
+<form>
+        <div class="form-group row">
+          <label for="name" class="col-sm-5 col-form-label">Name Surname:</label>
+          <div class="col-sm-7">
+            <input type="text" class="form-control" id="name" placeholder="Name Surname">
+          </div>
+        </div>
 
-</p>
+        <div class="form-group row">
+                <label for="email" class="col-sm-5 col-form-label">Email</label>
+                <div class="col-sm-7">
+                  <input type="email" class="form-control" id="email" placeholder="mail@example.com">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                    <label for="telnumber" class="col-sm-5 col-form-label">Telephone</label>
+                    <div class="col-sm-7">
+                      <input type="text" maxlength="11" class="form-control" id="telnumber" placeholder="Max. 11 digit!">
+                    </div>
+                  </div>
+
+              <div class="form-group row">
+                    <label for="issue" class="col-sm-5 col-form-label">Issue</label>
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control" id="issue" placeholder="Issue">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                        <label for="textarea" class="col-sm-5 col-form-label" >Message</label>
+                        <div class="col-sm-7">
+                        <textarea class="form-control" id="textarea" rows="4"></textarea>
+                      </div>
+                    </div>
 
 
+        <div class="row justify-content-around">
+          <div class="col-auto">
+            <button type="submit" class="btn" onclick="return confirm ('Your message is sent')" >Submit</button>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+                <div class="col-auto"><br><h6>or if you want to contact me</h6><br>
+                    </div>
+                </div>
+        <div class="row justify-content-around">
+                <div class="col-auto">
+        <a class="btn btn-warning" href="mailto:mehmet.tacettin@gmail.com" role="button">Send email</a>
+    </div>
+</div>
+      </form>
+
+</div>
+    </div>
 
 
-
-
-
+        <center>
+          <hr>
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+      <nav class="nav icon-set">
+        <div class="container">
+          <a class="Github"><a href="https://github.com/mbtacettin" data-toggle="tooltip" title="Github"><i class="fa fa-github fa-lg"></i></a>
+          <a class="instagram"><a href="https://instagram.com/bugratacettin" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a>
+          <a class_"twitter"><a href="https://twitter.com/mbtacettin" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+        </div>
+      </nav>
+          <hr>
+      </center>
   </body>
 </html>
