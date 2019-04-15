@@ -1,18 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+<head>
+      <meta charset="utf-8">
+      <title>My Web Site</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+  .active{
+   font-size: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+</style>
+</head>
   <body>
-    <center>
-      <a href="index.htm">HOMEPAGE</a>
-      <a href="films.htm">FILMS</a>
-      <a href="books.htm">BOOKS</a>
-      <a href="musics.htm">MUSICS</a>
-      <a href="usefullinks.htm">USEFUL LINKS</a>
-      <font size="6"><ins><a href="contactme.htm">CONTACT ME</a></font>
-      <a href="registration.htm">REGISTER</a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00FF00;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+              <li class="nav-item">
+                  <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="films.htm">Films</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="books.htm">Books</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="musics.htm">Musics</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="usefullinks.htm">UsefulLinks</a>
+              </li>
+
+              <li class="nav-item active">
+                  <a class="nav-link" href="contactme.htm">ContactMe</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="registration.htm">Registration</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
 <br><br><br><br>
       <form>
       Name Surname: <input type="text" name="name">
@@ -46,7 +92,7 @@
 
 
 
-    </center>
+
 
   </body>
 </html>
